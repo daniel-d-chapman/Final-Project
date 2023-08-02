@@ -1,11 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 1rem;
-    background-color: rgb(177, 157, 240);
   }
-  form{
+
+  form {
     margin-top:1rem;
   }
+
   .quiz-container {
     width: 80%;
     margin: 0 auto;
@@ -14,17 +15,24 @@ body {
   h1 {
     text-align: center;
   }
+
+  #quiz-form {
+    display: grid;
+    grid-template-columns: 300px, 300px;
+  }
   
   .question {
     width:50%;
     margin-bottom: 1rem;
-    background-color: #fff;
+    background-color: #f4eeee;
     padding:20px;
   }
-  .question:nth-child(odd){
+
+  .question:nth-child(odd) {
     margin-right:5%;
   }
-  .question p{
+
+  .question p {
     font-weight: bold;
   }
   
@@ -32,8 +40,9 @@ body {
     width: 50%;
     margin-bottom: 1rem;
   }
-  .answers label:not(:first-child){
-    border-top:1px solid #e0e0e0;
+
+  .answers label:not(:first-child) {
+    border-top:1px solid #f3c8ed;
   }
   
   label {
@@ -44,6 +53,7 @@ body {
   
   input[type="radio"] {
     margin-right: 10px;
+    cursor: pointer;
   }
   
   .submit-btn {
@@ -67,6 +77,9 @@ body {
     border-radius: 5px;
     text-align: center;
   }
-  .d-flex{
-    display: flex;
+  
+  .quiz-grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
   }
