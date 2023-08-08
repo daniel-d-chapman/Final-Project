@@ -5,8 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="Quiz-2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+      <header>
+
+        <nav>
+          <!-- Top Navigation Menu -->
+          <div class="topnav">
+            <a href="#home" class="active">Welcome to Melbourne</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+            <a href="#home">Home</a>
+            <a href="#places-of-interest">Places of Interest</a>
+            <a href="#melbourne-quiz">Melbourne Quiz</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+        </nav>
+      </header>
         <div class="quiz-container">
             <h1>Melbourne Quiz Mania!</h1>
             <hr>
@@ -167,7 +188,7 @@
                 </div>
 
                 <div class="question">
-                  <p>8. Melbournian's get a Public Holiday for the first Tuesday in Novemeber. What annual Event takes place on this day? </p>
+                  <p>8. Melbournian's get a Public Holiday for the first Tuesday in November. What annual Event takes place on this day? </p>
                   <div class="answers">
                     <label>
                       <input type="radio" name="q8" value="a">

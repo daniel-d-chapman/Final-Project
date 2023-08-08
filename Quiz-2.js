@@ -1,3 +1,13 @@
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 const quizForm = document.querySelector('#quiz-form');
 const resultDiv = document.querySelector('#result');
 const correctAnswers = ['a', 'c', 'b', 'd', 'c', 'a', 'b', 'd', 'a', 'd'];
@@ -17,3 +27,5 @@ quizForm.addEventListener('submit', e => {
 
   resultDiv.innerHTML = `Your score is ${score}/${correctAnswers.length}`;
 });
+
+
