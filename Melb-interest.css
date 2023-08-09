@@ -1,3 +1,6 @@
+body {
+    max-width: min-content;
+}
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
@@ -40,61 +43,9 @@
     color: white;
   }
 
-  .topnav {
-    margin-bottom: 3rem;
-  }
+.melb-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+} 
 
-  .card {
-    border: 1px solid grey;
-  }
-
-  .card-img-top {
-    width: 24rem;
-    height: 18rem;
-    object-fit: cover;
-  }
-
-  .card-grid {
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-  }
-
-  .card-body {
-    text-align: center;
-    padding-bottom: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  h5 {
-    font-size: 2rem;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-  }
-
-  p {
-    margin-top: auto;
-  }
-  a {
-    color: black;
-  }
-
-  .btn-card {
-    font-size: 1.5rem;
-    text-decoration: none;
-    border: 1px solid black;
-    padding: .5rem;
-    background-color: #04AA6D;
-    color: white;
-  }
-
-  .card-text {
-    margin-bottom: 2rem;
-  }
-
-
-
-  
-
-
-  
