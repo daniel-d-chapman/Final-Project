@@ -123,4 +123,10 @@ body {
   position: relative;
 }
 
+footer {
+  background-color: #04AA6D;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
   
