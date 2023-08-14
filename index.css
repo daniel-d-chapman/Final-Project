@@ -58,6 +58,7 @@
     display: flex;
     justify-content: center;
     gap: 4rem;
+    margin-bottom: 2rem;
   }
 
   .card-body {
@@ -93,12 +94,12 @@
   }
 
   footer {
-    margin-top: 4rem;
     background-color: #04AA6D;
+    padding-top: .5rem;
     display: flex;
     justify-content: space-around;
     color: white;
-}
+  }
 
 
 
